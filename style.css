@@ -40,15 +40,19 @@ nav li {
 
 .image-container {
 	text-align: center; /* opcional */
+	
+	
 }
   
 .image-wrapper {
 	display: inline-block;
 	margin: 10px; /* ajuste a margem conforme necessário */
+	
 }
   
 .image-wrapper img {
 	max-width: 100%;
+	
 }
 
 .text-img {
@@ -58,7 +62,7 @@ nav li {
 
 ul {
 	list-style-type: none;
-	margin: 0;
+	margin: 20px;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
@@ -67,6 +71,7 @@ ul {
   
 li {
 	float: left;
+	border-right: 1px solid #bbb;
 }
   
 li a {
